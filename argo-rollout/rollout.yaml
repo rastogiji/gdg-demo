@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: weather-app
-        image: docker.io/atulinfracloud/weathersample:v1
+        image: docker.io/atulinfracloud/weathersample:v2
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
